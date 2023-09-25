@@ -1,4 +1,3 @@
-/* Styling the calendar container /
 #datepicker1, #datepicker2 {
   border: 1px solid #ccc;
   width: 300px; / You can adjust the width as needed /
@@ -7,7 +6,6 @@
   display: inline-block;
 }
 
-/ Styling the calendar header /
 caption {
   text-align: center;
   font-weight: bold;
@@ -15,34 +13,32 @@ caption {
   background-color: #f0f0f0;
 }
 
-/ Styling the previous and next month buttons /
 .month-selector {
   cursor: pointer;
   font-weight: bold;
   font-size: 18px;
 }
 
-/ Styling the day headers (Su, Mo, Tu, etc.) /
 th {
   text-align: center;
   background-color: #f0f0f0;
 }
 
-/ Styling the calendar grid /
 td {
   text-align: center;
   padding: 5px;
 }
 
-/ Styling days belonging to the previous or next month /
 .not-in-month {
   color: #ccc;
 }
 
-/ Styling the selected day /
-/ You can add more styles for selected days if needed */
 td.selected {
     background-color: #3498db;
     color: #fff;
     border-radius: 50%;
+}
+
+.datepicker-date:hover {
+    background-color: #fdd337;
 }
